@@ -1,23 +1,20 @@
-// Copyright 2018 The Chromium Authors. All rights reserved.
-// Use of this source code is governed by a BSD-style license that can be
-// found in the LICENSE file.
-
 'use strict'
+let toggle = false
 
-chrome.runtime.onInstalled.addListener(function () {
-  chrome.storage.sync.set({ color: '#3aa757' }, function () {
-    console.log('The color is green.')
-  })
-  chrome.declarativeContent.onPageChanged.removeRules(undefined, () => {
-    chrome.declarativeContent.onPageChanged.addRules([
-      {
-        conditions: [
-          new chrome.declarativeContent.PageStateMatcher({
-            pageUrl: { hostEquals: 'developer.chrome.com' }
-          })
-        ],
-        actions: [new chrome.declarativeContent.ShowPageAction()]
-      }
-    ])
+// If the tab is updated set the toggle to false, so it activates when its clicked the first time
+chrome.tabs.onUpdated.addListener(() => {
+  toggle = false
+})
+
+// Send a message to the tab (activate, disable) in order to collect the request and justify the content.
+chrome.browserAction.onClicked.addListener(tab => {
+  toggle = !toggle
+  chrome.tabs.query({ active: true, currentWindow: true }, tabs => {
+    const activeTab = tabs[0]
+    if (toggle) {
+      chrome.tabs.sendMessage(activeTab.id, { message: 'active' })
+    } else {
+      chrome.tabs.sendMessage(activeTab.id, { message: 'disable' })
+    }
   })
 })
