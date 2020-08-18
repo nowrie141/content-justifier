@@ -41,7 +41,7 @@
 ## Table of Contents
 
 - [About the Project](#about-the-project)
-  - [Built With](#built-with)
+  - [Built and Deployed With](#built-and-deployed-with)
 - [What did I learn?](#what-did-i-learn-?)
 - [Contributing](#contributing)
 - [License](#license)
