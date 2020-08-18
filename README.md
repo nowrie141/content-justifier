@@ -17,8 +17,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/nowrie141/django_library">
-    <img src="images/logo.png" alt="Logo" width="128" height="128">
+  <a href="https://github.com/nowrie141/content-justifier">
+    <img src="images/justify128.png" alt="Logo" width="128" height="128">
   </a>
 
   <h3 align="center">Content Justifier</h3>
@@ -26,13 +26,13 @@
   <p align="center">
     An awesome Chrome extension to justify the text of every web page!
     <br />
-    <a href="https://github.com/nowrie141/django_library"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/nowrie141/content-justifier"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     ·
-    <a href="https://github.com/nowrie141/django_library/issues">Report Bug</a>
+    <a href="https://github.com/nowrie141/content-justifier/issues">Report Bug</a>
     ·
-    <a href="https://github.com/nowrie141/django_library/issues">Request Feature</a>
+    <a href="https://github.com/nowrie141/content-justifier/issues">Request Feature</a>
   </p>
 </p>
 
@@ -89,19 +89,19 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Ismael Abu-jadur Garcia - [@abujadur](https://twitter.com/abujadur) - ismaelabujadur@gmail.com
 
-Project Link: [https://github.com/nowrie141/django_library](https://github.com/nowrie141/django_library)
+Project Link: [https://github.com/nowrie141/content-justifier](https://github.com/nowrie141/content-justifier)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/nowrie141/django_library?style=flat-square
-[contributors-url]: https://github.com/nowrie141/django_library/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/nowrie141/django_library.svg?style=flat-square
-[forks-url]: https://github.com/nowrie141/django_library/network/members
-[stars-shield]: https://img.shields.io/github/stars/nowrie141/django_library.svg?style=flat-square
-[stars-url]: https://github.com/nowrie141/django_library/stargazers
-[issues-shield]: https://img.shields.io/github/issues/nowrie141/django_library.svg?style=flat-square
-[issues-url]: https://github.com/nowrie141/django_library/issues
-[license-shield]: https://img.shields.io/github/license/nowrie141/django_library.svg?style=flat-square
-[license-url]: https://github.com/nowrie141/django_library/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/nowrie141/content-justifier?style=flat-square
+[contributors-url]: https://github.com/nowrie141/content-justifier/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/nowrie141/content-justifier.svg?style=flat-square
+[forks-url]: https://github.com/nowrie141/content-justifier/network/members
+[stars-shield]: https://img.shields.io/github/stars/nowrie141/content-justifier.svg?style=flat-square
+[stars-url]: https://github.com/nowrie141/content-justifier/stargazers
+[issues-shield]: https://img.shields.io/github/issues/nowrie141/content-justifier.svg?style=flat-square
+[issues-url]: https://github.com/nowrie141/content-justifier/issues
+[license-shield]: https://img.shields.io/github/license/nowrie141/content-justifier.svg?style=flat-square
+[license-url]: https://github.com/nowrie141/content-justifier/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ismael-abu-jadur-garcía-809154a6
